@@ -1,0 +1,18 @@
+<!-- Знак Korgen Shop для светлого фона.
+
+     Кружок-ручка и буква K вырезаны маской, поэтому знак остаётся собой
+     на любой подложке — в шапке на белом и на серой плашке экранов входа. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+  <mask id="korgenBag" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+    <rect width="48" height="48" fill="black"/>
+    <path d="M17.5 7H30.5C32.8 7 34.7 8.7 35.1 11L40.6 33.4C41.6 37.6 38.4 41.5 34.1 41.5H13.9C9.6 41.5 6.4 37.6 7.4 33.4L12.9 11C13.3 8.7 15.2 7 17.5 7Z"
+          fill="white"/>
+    <circle cx="24" cy="14.2" r="3.5" fill="black"/>
+    <g stroke="black" stroke-width="3.4" stroke-linecap="round">
+      <path d="M20.4 21.6V34.6"/>
+      <path d="M21 28.1L28.2 21.6"/>
+      <path d="M21 28.1L28.6 34.6"/>
+    </g>
+  </mask>
+  <rect width="48" height="48" fill="#0058F6" mask="url(#korgenBag)"/>
+</svg>

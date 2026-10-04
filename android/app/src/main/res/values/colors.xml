@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Фон нативного экрана запуска: тот же лазурный, что у заставки
+         в приложении. Иначе между системным экраном и Flutter моргает белым. -->
+    <color name="splash_background">#0058F6</color>
+</resources>

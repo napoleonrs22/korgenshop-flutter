@@ -1,0 +1,651 @@
+{
+  "language": {
+    "self": "English",
+    "title": "Language",
+    "ru": "Russian",
+    "kk": "Kazakh",
+    "en": "English"
+  },
+  "common": {
+    "error": "Error: {error}",
+    "notFound": "Nothing found"
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "quizzes": "Quizzes",
+    "cart": "Cart",
+    "profile": "Profile"
+  },
+  "menu": {
+    "projects": "Completed projects",
+    "support": "Contacts and support",
+    "catalog": "Equipment catalog"
+  },
+  "home": {
+    "categoriesTitle": "Equipment catalog",
+    "allCategories": "All categories",
+    "projectsTitle": "Completed projects",
+    "allProjects": "All projects",
+    "errorCategories": "Could not load categories: {error}",
+    "errorProjects": "Could not load projects: {error}"
+  },
+  "catalog": {
+    "filters": "Filters",
+    "results": "Products shown: {count}",
+    "sortBy": "SORT BY:",
+    "category": "CATEGORY",
+    "all": "All",
+    "showResults": "Show results",
+    "addToCart": "Add to cart",
+    "inCart": "In cart",
+    "details": "Details",
+    "empty": "No products in this category yet",
+    "error": "Could not load the catalog: {error}",
+    "sort": {
+      "recommended": "Recommended",
+      "priceAsc": "Price: low to high",
+      "priceDesc": "Price: high to low",
+      "nameAsc": "Name: A–Z"
+    }
+  },
+  "product": {
+    "tabDescription": "Description",
+    "tabSpecifications": "Specifications",
+    "tabVideo": "Video",
+    "addToCart": "Add to cart",
+    "inCart": "In cart",
+    "whatsapp": "Consult on WhatsApp",
+    "inStock": "In stock",
+    "notFound": "Product not found",
+    "videoSoon": "A video review is coming soon",
+    "whatsappSoon": "WhatsApp integration is not connected yet",
+    "whatsappMessage": "Hello! I am interested in: {subject}",
+    "whatsappUnavailable": "Could not open WhatsApp"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "empty": "No reviews yet. Be the first — it helps others choose.",
+    "count": "Reviews: {count}",
+    "write": "Write a review",
+    "formTitle": "Your review",
+    "ratingLabel": "Rating",
+    "nameLabel": "Name",
+    "nameHint": "How to sign your review",
+    "commentLabel": "Review",
+    "commentHint": "What you liked and what you did not",
+    "prosLabel": "Pros",
+    "consLabel": "Cons",
+    "optional": "Optional",
+    "submit": "Send review",
+    "sent": "Thank you! Your review is published",
+    "errorName": "Enter your name",
+    "errorRating": "Give a rating",
+    "errorComment": "Write at least 10 characters"
+  },
+  "quiz": {
+    "title": "Calculation tools",
+    "subtitle": "Pick a system to get a preliminary estimate for equipment and installation. Our quizzes help put together an accurate quote.",
+    "error": "Could not load quizzes: {error}",
+    "notFound": "Quiz not found",
+    "stepOf": "Step {current} of {total}",
+    "next": "Next step",
+    "back": "Back",
+    "estimateTitle": "Your preliminary estimate",
+    "estimateBody": "Based on your answers we recommend {count} {unit}. The final price is confirmed after a site visit.",
+    "yourAnswers": "YOUR ANSWERS",
+    "startOver": "Start over",
+    "goToCatalog": "Go to catalog",
+    "equipment": "Equipment",
+    "installation": "Installation",
+    "total": "Total",
+    "leadTitle": "Request a call",
+    "leadSubtitle": "We will call back and confirm the details.",
+    "leadName": "Name",
+    "leadNameHint": "John Smith",
+    "leadPhone": "Phone",
+    "leadPhoneHint": "+7 (700) 000-00-00",
+    "leadAddress": "Site address",
+    "leadAddressHint": "Almaty, Abay st. 10",
+    "leadSubmit": "Send",
+    "leadSuccess": "Request #{id} received",
+    "leadRequired": "Fill in this field",
+    "photo": {
+      "question": "Take a photo of the spot where the equipment should go",
+      "hint": "From the photos our engineer can judge the mounting points before the site visit: height, lighting and where to fix the unit. This step is optional.",
+      "camera": "Take a photo",
+      "gallery": "From gallery",
+      "count": "Attached: {count} of {limit}",
+      "error": "Could not get the photo"
+    }
+  },
+  "projects": {
+    "title": "Completed projects",
+    "subtitle": "A selection of our high-load security systems.",
+    "error": "Could not load projects: {error}"
+  },
+  "support": {
+    "title": "Contacts and support",
+    "subtitle": "We will help with any technical question and with choosing equipment.",
+    "instantTitle": "Quick contact",
+    "instantSubtitle": "The fastest answer for urgent questions.",
+    "whatsappCta": "Message on WhatsApp",
+    "faqTitle": "Frequently asked questions"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "emptyHint": "Add equipment from the catalog and it will show up here.",
+    "openCatalog": "Open catalog",
+    "total": "Total",
+    "checkout": "Place order",
+    "checkoutSoon": "Checkout is not connected yet",
+    "checkoutTitle": "Checkout",
+    "name": "Full name",
+    "nameHint": "John Smith",
+    "phone": "Phone",
+    "phoneHint": "+7 (700) 000-00-00",
+    "email": "Email",
+    "emailHint": "john@example.com",
+    "city": "City",
+    "cityHint": "Almaty",
+    "address": "Delivery address",
+    "addressHint": "1 Abay St",
+    "comment": "Comment",
+    "commentHint": "Optional",
+    "submit": "Place order",
+    "success": "Order #{id} placed",
+    "errorRequired": "Fill in this field",
+    "emptyForCheckout": "Your cart is empty",
+    "payment": "Payment method",
+    "kaspiTitle": "Pay with Kaspi",
+    "kaspiOpen": "Pay in Kaspi",
+    "kaspiNoLink": "Payment link is not configured — use the QR code",
+    "itemsCount": "Items in cart: {count}",
+    "authTitle": "An account is required",
+    "authHint": "Orders are tied to your account, so you can see them in your history and track them."
+  },
+  "orders": {
+    "title": "My orders",
+    "empty": "No orders yet. Place your first one and it will show up here.",
+    "signInRequired": "Sign in to see your order history.",
+    "error": "Could not load orders: {error}",
+    "retry": "Try again",
+    "number": "Order #{id}",
+    "itemsCount": "Items: {count}"
+  },
+  "profile": {
+    "title": "Profile",
+    "hint": "Orders, profile and history — after you sign in.",
+    "guest": "Guest",
+    "notSignedIn": "Not signed in",
+    "orders": "My orders",
+    "ordersHint": "Orders will appear together with the backend",
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  },
+  "content": {
+    "banners": {
+      "calc": {
+        "label": "SERVICE",
+        "title": "Plan your CCTV system in 10 minutes",
+        "cta": "Calculate now"
+      },
+      "install": {
+        "label": "INSTALLATION",
+        "title": "Turnkey installation in 3 days",
+        "cta": "Request a call"
+      },
+      "skud": {
+        "label": "ACCESS CONTROL",
+        "title": "Turnstiles and barriers with a 3-year warranty",
+        "cta": "Browse catalog"
+      }
+    },
+    "categories": {
+      "cameras": "Cameras",
+      "nvr": "Recorders",
+      "poe": "PoE switches",
+      "turnstiles": "Turnstiles",
+      "barriers": "Barriers"
+    },
+    "productCategories": {
+      "cameras": "Cameras",
+      "nvr": "Recorders",
+      "poe": "PoE switches",
+      "turnstiles": "Turnstiles",
+      "barriers": "Barriers"
+    },
+    "badges": {
+      "high-voltage": "High voltage",
+      "made-to-order": "Made to order"
+    },
+    "products": {
+      "apex-v300-dome": {
+        "name": "Apex V-300 Dome",
+        "short": "4K Ultra HD network camera",
+        "description": "The Apex V-300 delivers flawless detail in difficult lighting. Built for professional installation: a reinforced housing and advanced AI motion analytics.",
+        "features": [
+          "IK10-rated vandal-proof housing",
+          "Starlight technology for low-light capture",
+          "Remote varifocal lens adjustment"
+        ],
+        "specifications": {
+          "Resolution": "8 MP (3840 × 2160)",
+          "Lens": "2.8–12 mm motorized",
+          "IR range": "up to 50 m",
+          "Power": "PoE (802.3af) / 12 V DC",
+          "Protection": "IP67, IK10",
+          "Analytics": "Human and vehicle detection"
+        }
+      },
+      "hik-ds-2cd2043g2-i": {
+        "name": "Hikvision 4MP Bullet with AcuSense",
+        "short": "4 MP outdoor bullet IP camera",
+        "description": "A bullet IP camera with AcuSense: it filters out false alarms from animals and foliage, leaving only events involving people and vehicles.",
+        "features": [
+          "AcuSense false-alarm filtering",
+          "EXIR 2.0 infrared illumination up to 40 m",
+          "IP67 housing for outdoor installation"
+        ],
+        "specifications": {
+          "Resolution": "4 MP (2688 × 1520)",
+          "Lens": "2.8 mm fixed",
+          "IR range": "up to 40 m",
+          "Power": "PoE (802.3af) / 12 V DC",
+          "Protection": "IP67",
+          "Analytics": "AcuSense, line crossing"
+        }
+      },
+      "dah-ipc-hfw2431s": {
+        "name": "Dahua 4MP Lite IR bullet camera",
+        "short": "Entry-level 4 MP outdoor camera",
+        "description": "A compact Lite series camera for sites where the balance of price and quality matters. H.265+ support noticeably saves space on the recorder.",
+        "features": [
+          "H.265+ codec — up to 70% less storage",
+          "Infrared illumination up to 30 m",
+          "Power and data over a single PoE cable"
+        ],
+        "specifications": {
+          "Resolution": "4 MP (2688 × 1520)",
+          "Lens": "2.8 mm fixed",
+          "IR range": "up to 30 m",
+          "Power": "PoE (802.3af)",
+          "Protection": "IP67",
+          "Analytics": "Motion detection"
+        }
+      },
+      "hik-ds-7608ni-k2-8p": {
+        "name": "Hikvision 8-channel 4K NVR with 8 PoE",
+        "short": "8-channel 4K network video recorder",
+        "description": "An eight-channel recorder with a built-in PoE switch: cameras connect directly, with no separate power supply or external switch.",
+        "features": [
+          "Built-in 8-port PoE switch",
+          "Two HDD bays, up to 10 TB each",
+          "Archive playback from the mobile app"
+        ],
+        "specifications": {
+          "Channels": "8",
+          "Recording": "up to 8 MP (4K)",
+          "HDD bays": "2 × SATA, up to 10 TB",
+          "PoE": "8 ports, 120 W budget",
+          "Outputs": "HDMI 4K, VGA",
+          "Network": "1 × RJ45 1000 Mbps"
+        }
+      },
+      "spector-nvr-16": {
+        "name": "Spector NVR-1600, 16 channels",
+        "short": "16 channels, RAID, hot-swap drives",
+        "description": "A recorder for medium and large sites. RAID 1/5 and hot-swap drives keep the archive intact even if one disk fails.",
+        "features": [
+          "RAID 1/5 with hot-swap drives",
+          "Cascading up to 64 cameras",
+          "Cloud backup of the archive"
+        ],
+        "specifications": {
+          "Channels": "16",
+          "Recording": "up to 12 MP",
+          "HDD bays": "4 × SATA, up to 16 TB",
+          "RAID": "0 / 1 / 5",
+          "Outputs": "HDMI 4K ×2, VGA",
+          "Network": "2 × RJ45 1000 Mbps"
+        }
+      },
+      "poe-switch-8": {
+        "name": "Spector SW-8P, 8-port PoE switch",
+        "short": "8 PoE ports, 120 W budget",
+        "description": "An unmanaged PoE switch for eight IP cameras. Extend mode stretches a run to 250 metres over ordinary twisted pair.",
+        "features": [
+          "120 W budget across 8 ports",
+          "Extend mode — up to 250 m per run",
+          "6 kV surge protection on every port"
+        ],
+        "specifications": {
+          "PoE ports": "8 × 100 Mbps",
+          "Uplink": "2 × 1000 Mbps",
+          "PoE budget": "120 W",
+          "Standards": "802.3af / 802.3at",
+          "Housing": "Steel, rack mount",
+          "Surge protection": "6 kV"
+        }
+      },
+      "turnstile-tripod": {
+        "name": "Spector T-200 tripod turnstile",
+        "short": "Pedestal turnstile for entrance groups",
+        "description": "A stainless steel tripod turnstile for office and industrial checkpoints. Integrates with any access control system over dry contacts.",
+        "features": [
+          "AISI 304 stainless steel housing",
+          "Anti-panic: arms drop on a fire alarm",
+          "Rated for 3 million passages"
+        ],
+        "specifications": {
+          "Throughput": "up to 30 people/min",
+          "Material": "AISI 304 stainless steel",
+          "Power": "12 V DC, 20 W",
+          "Interface": "Dry contacts, RS-485",
+          "Service life": "3,000,000 passages",
+          "Mounting": "Floor, anchor bolts"
+        }
+      },
+      "barrier-4m": {
+        "name": "Spector B-4000 barrier with a 4 m boom",
+        "short": "Automatic parking barrier",
+        "description": "An automatic barrier with a 4-metre boom and a 1.5-second rise time. Works with licence plate recognition out of the box.",
+        "features": [
+          "Boom raises in 1.5 seconds",
+          "Integrates with licence plate recognition",
+          "Operates down to −40 °C"
+        ],
+        "specifications": {
+          "Boom length": "4 m",
+          "Rise time": "1.5 s",
+          "Duty cycle": "100%, up to 3000 cycles/day",
+          "Power": "220 V AC",
+          "Temperature": "−40…+55 °C",
+          "Protection": "IP54"
+        }
+      }
+    },
+    "projects": {
+      "avangard": {
+        "category": "Access control",
+        "title": "Access control for a business centre",
+        "description": "Installation of 12 turnstiles and integration with a time-tracking system.",
+        "client": "Avangard Business Centre",
+        "tags": [
+          "Turnstiles",
+          "Time tracking"
+        ]
+      },
+      "warehouse": {
+        "category": "Logistics",
+        "title": "IP video surveillance for a warehouse",
+        "description": "Installation of 64 high-resolution cameras with licence plate recognition analytics.",
+        "client": "Warehouse complex",
+        "tags": [
+          "64 cameras",
+          "Plate recognition"
+        ]
+      },
+      "perimeter": {
+        "category": "Perimeter",
+        "title": "Perimeter security",
+        "description": "Complete perimeter protection: barriers, thermal cameras and lighting.",
+        "client": "TechProm plant",
+        "tags": [
+          "Thermal cameras",
+          "Barriers"
+        ]
+      },
+      "datacenter": {
+        "category": "Data centre",
+        "title": "Project Alpha: sector 7 core",
+        "description": "Full perimeter video surveillance and biometric access control for a Tier 4 data centre. Overall site security improved by 45% while staff passage got faster.",
+        "client": "Tier 4 data centre",
+        "tags": [
+          "Biometrics",
+          "Perimeter protection"
+        ]
+      },
+      "corporate": {
+        "category": "Corporate",
+        "title": "Global Finance headquarters integration",
+        "description": "Optical turnstiles paired with RFID tracking for the company's head office. Unauthorised passage attempts dropped to zero without compromising the interior design.",
+        "client": "Global Finance",
+        "tags": [
+          "Optical turnstiles",
+          "RFID tracking"
+        ]
+      },
+      "logistics": {
+        "category": "Logistics",
+        "title": "Nexus Hub automated surveillance",
+        "description": "A dense camera network with AI analytics across a 46,000 m² logistics centre. Real-time threat detection and asset tracking cut product losses noticeably.",
+        "client": "Nexus Hub",
+        "tags": [
+          "AI surveillance",
+          "Asset tracking"
+        ]
+      },
+      "retail-chain": {
+        "category": "Retail",
+        "title": "A single standard for the Northline chain",
+        "description": "One surveillance standard rolled out across 34 stores with centralised archive storage and shared analytics. Losses fell by a third in the first quarter.",
+        "client": "Northline Retail",
+        "tags": [
+          "Multi-site",
+          "Central archive"
+        ]
+      },
+      "campus": {
+        "category": "Education",
+        "title": "Westgate campus access programme",
+        "description": "Cards and mobile passes across eleven campus buildings, tied to the existing student directory. Granting and revoking access takes seconds instead of days.",
+        "client": "Westgate campus",
+        "tags": [
+          "Mobile passes",
+          "Directory sync"
+        ]
+      },
+      "industrial-perimeter": {
+        "category": "Industrial",
+        "title": "Kestrel plant perimeter protection",
+        "description": "Thermal cameras, automatic barriers and adaptive lighting along a 2.4 km industrial perimeter. Night alarms became reliable enough to cut security to a single shift.",
+        "client": "Kestrel plant",
+        "tags": [
+          "Thermal cameras",
+          "Automatic barriers"
+        ]
+      }
+    },
+    "quizzes": {
+      "cctv": {
+        "title": "Quiz: CCTV cost estimate",
+        "shortTitle": "CCTV calculator",
+        "description": "Answer a few questions about the size of your site and the recording quality you need to get a detailed quote for equipment and installation.",
+        "duration": "3-5 min",
+        "unitLabel": "cameras",
+        "steps": {
+          "object_type": {
+            "question": "What kind of site needs protection?",
+            "options": {
+              "apartment": "Apartment",
+              "retail": "Store",
+              "warehouse": "Warehouse",
+              "office": "Office"
+            }
+          },
+          "area": {
+            "question": "How much area needs coverage?",
+            "options": {
+              "small": "Up to 100 m²",
+              "medium": "100 – 500 m²",
+              "large": "500 – 2000 m²",
+              "xlarge": "Over 2000 m²"
+            }
+          },
+          "quality": {
+            "question": "What recording quality do you need?",
+            "options": {
+              "2mp": "2 MP — Full HD",
+              "4mp": "4 MP — 2K",
+              "8mp": "8 MP — 4K",
+              "mixed": "Varies by zone"
+            }
+          },
+          "retention": {
+            "question": "How long should the archive be kept?",
+            "options": {
+              "7d": "7 days",
+              "14d": "14 days",
+              "30d": "30 days",
+              "90d": "90 days"
+            }
+          }
+        }
+      },
+      "access": {
+        "title": "Quiz: turnstile and barrier estimate",
+        "shortTitle": "Access control calculator",
+        "description": "Work out the right type of access system for your business or car park. Find out the cost in a few clicks.",
+        "duration": "2-4 min",
+        "unitLabel": "access points",
+        "steps": {
+          "system_type": {
+            "question": "What kind of access system do you need?",
+            "options": {
+              "tripod": "Tripod turnstiles",
+              "optical": "Optical speed gates",
+              "barrier": "Parking barriers",
+              "combined": "Combined"
+            }
+          },
+          "throughput": {
+            "question": "How many people are expected per day?",
+            "options": {
+              "upto200": "Up to 200 people",
+              "upto1000": "200 – 1000 people",
+              "upto5000": "1000 – 5000 people",
+              "over5000": "Over 5000 people"
+            }
+          },
+          "identification": {
+            "question": "How should people be identified?",
+            "options": {
+              "card": "Proximity cards",
+              "mobile": "Mobile passes",
+              "biometry": "Face recognition",
+              "plates": "Licence plates"
+            }
+          },
+          "integration": {
+            "question": "What integration do you need?",
+            "options": {
+              "standalone": "Standalone operation",
+              "time": "Time tracking",
+              "erp": "ERP / 1C",
+              "full": "Full security suite"
+            }
+          }
+        }
+      }
+    },
+    "support": {
+      "office": {
+        "officeTitle": "Head office",
+        "company": "ТОО «INNOVA CORPORATION COMPANY»",
+        "addressLines": [
+          "Shymkent"
+        ],
+        "phoneTitle": "Support phone",
+        "phone": "+7 775 613 13 26",
+        "workingHours": "Mon–Fri, 9:00 – 18:00"
+      },
+      "faq": {
+        "shipping": {
+          "question": "Delivery times",
+          "answer": "Equipment in stock ships the same working day and reaches most cities within 48 hours. Made-to-order turnstiles and barriers take 10–15 working days to produce."
+        },
+        "returns": {
+          "question": "Returns and warranty",
+          "answer": "All equipment carries a 36-month manufacturer warranty. Unopened items can be returned within 14 days of delivery; if the fault is ours, we cover return shipping."
+        },
+        "calibration": {
+          "question": "Equipment setup",
+          "answer": "Cameras leave the warehouse already configured for the resolution and frame rate in your order. On-site setup guides for every series are available in your account."
+        },
+        "installation": {
+          "question": "Installation and commissioning",
+          "answer": "Our engineers handle installation, cabling and commissioning across Kazakhstan. Site visits are free for projects of 16 cameras or more."
+        }
+      }
+    }
+  },
+  "auth": {
+    "loginSubtitle": "Secure access to technical specifications and specialised equipment.",
+    "emailLabel": "Email",
+    "emailHint": "operator@spector.com",
+    "passwordLabel": "Password",
+    "passwordHint": "••••••••",
+    "forgotPassword": "Forgot your password?",
+    "login": "Sign in",
+    "noAccount": "No account?",
+    "signUp": "Sign up",
+    "registerTitle": "Create an account",
+    "registerSubtitle": "Join KORGEN SHOP — security equipment.",
+    "nameLabel": "Full name",
+    "nameHint": "John Smith",
+    "phoneLabel": "Phone",
+    "phoneHint": "+7 (700) 000-00-00",
+    "termsAgreement": "I accept the {terms} and the {privacy}.",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "createAccount": "Create account",
+    "haveAccount": "Already have an account?",
+    "notWired": "Authentication will work once the backend API is connected",
+    "errorEmail": "Enter a valid email",
+    "errorPassword": "Enter your password",
+    "errorName": "Enter your name",
+    "errorPhone": "Enter your phone number",
+    "errorTerms": "Accept the terms to continue",
+    "addressLabel": "Address",
+    "addressHint": "Almaty, 1 Abay St",
+    "addressOptional": "optional",
+    "verify": {
+      "title": "Confirm your email",
+      "subtitle": "We sent a six-digit code to {email}. Enter it to finish signing up.",
+      "codeLabel": "Code from the email",
+      "codeHint": "000000",
+      "submit": "Confirm",
+      "resend": "Send the code again",
+      "resendIn": "Resend in {seconds} s",
+      "resent": "Code sent",
+      "success": "Email confirmed",
+      "errorCode": "Enter the 6 digits from the email",
+      "later": "Skip",
+      "banner": "Email not confirmed",
+      "bannerCta": "Confirm",
+      "subtitleNoEmail": "We sent a six-digit code to your email. Enter it to finish signing up."
+    },
+    "reset": {
+      "title": "Password recovery",
+      "emailStep": "Enter the email your account is registered with — we will send a code.",
+      "sendCode": "Send code",
+      "codeStep": "We sent a six-digit code to {email}.",
+      "codeLabel": "Code from the email",
+      "codeHint": "000000",
+      "continueLabel": "Continue",
+      "passwordStep": "Choose a new password — at least 8 characters.",
+      "newPassword": "New password",
+      "repeatPassword": "Repeat password",
+      "save": "Save password",
+      "success": "Password updated",
+      "errorCode": "Enter the 6 digits from the email",
+      "errorPassword": "Password must be at least 8 characters",
+      "errorRepeat": "Passwords do not match",
+      "resend": "Send the code again",
+      "resendIn": "Resend in {seconds} s",
+      "backToLogin": "Back to sign in"
+    }
+  }
+}
