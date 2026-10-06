@@ -61,7 +61,6 @@ class _CatalogScreenState extends ConsumerState<CatalogScreen> {
       backgroundColor: AppColors.background,
       appBar: AppTopBar(
         onLeadingTap: () => AppMenuSheet.show(context),
-        onActionTap: () => FiltersSheet.show(context),
       ),
       body: ListView(
         controller: _scroll,

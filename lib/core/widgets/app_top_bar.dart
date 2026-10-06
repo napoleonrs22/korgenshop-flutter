@@ -8,7 +8,6 @@ import 'app_icon.dart';
 class AppTopBar extends StatelessWidget implements PreferredSizeWidget {
   const AppTopBar({
     this.onLeadingTap,
-    this.onActionTap,
     this.showBackButton = false,
     this.compactLogo = false,
     this.action,
@@ -16,10 +15,10 @@ class AppTopBar extends StatelessWidget implements PreferredSizeWidget {
   });
 
   final VoidCallback? onLeadingTap;
-  final VoidCallback? onActionTap;
 
-  /// Свой виджет справа вместо иконки поиска — например переключатель
-  /// языка на экране профиля.
+  /// Виджет справа — например переключатель языка на экране профиля.
+  /// Без него место остаётся пустым, но ширину сохраняет, чтобы лого
+  /// не съезжало с центра.
   final Widget? action;
 
   /// Слева стрелка «назад» вместо щита-логотипа (экран карточки товара).
@@ -51,12 +50,7 @@ class AppTopBar extends StatelessWidget implements PreferredSizeWidget {
           : const AppIcon('logo_mark', width: 22, height: 22),
     );
 
-    final trailing =
-        action ??
-        _TopBarButton(
-          onTap: onActionTap,
-          child: const AppIcon.square('search', size: 18),
-        );
+    final trailing = action ?? const SizedBox(width: 40, height: 40);
 
     return ColoredBox(
       color: AppColors.surface,

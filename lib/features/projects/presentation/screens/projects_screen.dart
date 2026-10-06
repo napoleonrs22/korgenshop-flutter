@@ -29,7 +29,6 @@ class ProjectsScreen extends ConsumerWidget {
             context.go(AppRoutes.home);
           }
         },
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 32, 16, 32),

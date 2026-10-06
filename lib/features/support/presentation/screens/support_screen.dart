@@ -34,7 +34,6 @@ class SupportScreen extends ConsumerWidget {
             context.go(AppRoutes.home);
           }
         },
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 24, 16, 48),

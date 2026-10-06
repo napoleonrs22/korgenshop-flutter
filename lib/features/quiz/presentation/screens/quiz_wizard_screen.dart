@@ -31,7 +31,6 @@ class QuizWizardScreen extends ConsumerWidget {
         compactLogo: true,
         showBackButton: true,
         onLeadingTap: () => context.go(AppRoutes.quizzes),
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       body: quiz.when(
         loading: () => const Center(child: CircularProgressIndicator()),

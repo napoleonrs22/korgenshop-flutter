@@ -38,7 +38,6 @@ class ProductDetailsScreen extends ConsumerWidget {
             context.go(AppRoutes.catalog);
           }
         },
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       body: product.when(
         loading: () => const Center(child: CircularProgressIndicator()),

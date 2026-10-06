@@ -24,7 +24,6 @@ class QuizSelectionScreen extends ConsumerWidget {
       backgroundColor: AppColors.background,
       appBar: AppTopBar(
         onLeadingTap: () => AppMenuSheet.show(context),
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 32, 16, 32),

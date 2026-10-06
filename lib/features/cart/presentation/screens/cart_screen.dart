@@ -32,7 +32,6 @@ class CartScreen extends ConsumerWidget {
       backgroundColor: AppColors.background,
       appBar: AppTopBar(
         onLeadingTap: () => AppMenuSheet.show(context),
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       // Заказ привязывается к аккаунту, поэтому корзина за входом:
       // иначе человек соберёт её и упрётся в авторизацию на оформлении.

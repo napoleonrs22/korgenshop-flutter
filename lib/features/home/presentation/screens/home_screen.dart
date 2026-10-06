@@ -29,7 +29,6 @@ class HomeScreen extends ConsumerWidget {
       backgroundColor: AppColors.background,
       appBar: AppTopBar(
         onLeadingTap: () => AppMenuSheet.show(context),
-        onActionTap: () => context.go(AppRoutes.catalog),
       ),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 16, 16, 32),
